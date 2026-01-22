@@ -16,38 +16,7 @@ function Article() {
     
     return (
         <>
-        <Box
-        ml={5}
-        mr={5}
-        >
-
-            <Box
-            mb={2}
-            component="img"
-            src={article.img}
-            />
-
-            <Typography
-            variant="h4"
-            fontWeight="bold"
-            > {article.title}
-            </Typography>
-
-            {article.date} - {article.author}
-
-            <Typography
-            mt={2}
-            > {article.content}
-            </Typography>
-
-            <Button
-            variant="contained"
-            onClick={() => setArticle((prev) => ({...prev, title:"New Title Added Succesfully!"}))}
-            sx={{mt:2}}
-            > Set Title
-            </Button>
-
-        </Box>
+        article goes here
         </>
     )
 
